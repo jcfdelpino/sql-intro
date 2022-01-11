@@ -38,5 +38,5 @@
 -- | Toronto Blue Jays             | 77.4             |
 -- | Washington Nationals          | 78.0             |
 -- +-------------------------------+------------------+
-
+Select name, avg(wins) from teams where year >=2001 group by name;
 
